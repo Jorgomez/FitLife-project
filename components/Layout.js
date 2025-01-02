@@ -5,7 +5,8 @@ import { StyleSheet, View, ImageBackground } from 'react-native'
 export default function Layout({ children }) {
   return (
     <ImageBackground
-      source={require('../assets/vcpt62abjs3ourkci51u.jpg')} // Asegúrate de usar la imagen que quieres
+      source={require('../assets/vcpt62abjs3ourkci51u.jpg')}
+      quieres
       style={styles.container}
     >
       <View style={styles.innerContainer}>{children}</View>
